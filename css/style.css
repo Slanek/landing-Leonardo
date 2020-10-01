@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "christmasscript";
+    src: url("https://fontstorage.com/st/christmasscript/400-basic_latin.woff2");
+  }
+  .chs {
+    font-family: "christmasscript";
+  }
+  .chs2{
+    font-family: "christmasscript";
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+  .lora {
+    font-family: "Lora";
+  }
+  .pigeon {
+    text-decoration: underline;
+    margin-bottom: 0.5rem;
+  }
+  .big-words {
+    font-size: 46px;
+    font-family: "Lora";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+  }
+  .choose{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    position: absolute;
+    box-shadow: 0px 0px 13.6px 3.4px rgba(0, 0, 0, 0.05);
+    width: 225px;
+    height: 45px;
+    z-index: 200; 
+    font-family: "Lora";
+    left: 41vh;
+    top: 440px;  
+    font-size:large;
+
+    }
+    body{
+      background-image: url(../img/header.png);
+      background-position: top;
+      background-repeat:no-repeat;
+    }
+    .pic{
+      margin: 0;
+      padding: 0;
+      left: 30em;
+      bottom: 10em;
+    }
+    p{
+      font-family: "Lora";
+      font-size: large;
+    }
+    .ar{
+      margin-bottom: 50px;
+    }
+    .button {
+      background-color: rgb(223, 215, 215);
+      border: none;
+      color: black;
+      padding: 6px 58px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      font-family: "Lora";
+      
+}
+.title-image{
+      position: absolute;
+      right: 400px;
+      top: 200px;
+      
+    }
+    .btn{
+      width: 232px;
+      background-color: #dddddd;
+      border: 1.0px solid #d6d6d6;
+      height: 46px;
+      font-family: PTSerif;
+      font-size: 22px;
+      line-height: 1.2;
+      font-weight: 400;
+      color: #000000;
+    }
+    .cards{
+      display: flex;
+      justify-content: space-between;
+    }
+    .comment{
+      display: flex;
+      justify-content: start;
+    }
+    .comment-text{
+      margin-top: 60px;
+    }
+    .author{
+      font-family: PTSerif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #000000;
+    margin-left: 700px;
+    }
+    .icons{
+      display: flex;
+      justify-content: center;
+    }
+    .form{
+      background: url(../img/form-bg.png) top center no-repeat;
+      height: 620px;
+    }
+    .inputs{
+      display: inline-block;
+      margin-left: 200px;
+      
+    }
+    .input{
+      width: 360px;
+      height: 51px;
+      background-color: #ffffff;
+      border: 1.0px solid #dddddd;
+      font-family: PTSerif;
+      font-size: 18px;
+      line-height: 1.2;
+      font-weight: 400;
+      color: #c3c3c3;
+    }
+    .input-text{
+      width: 750px;
+      height: 136px;
+      background-color: #ffffff;
+      border: 1.0px solid #dddddd;
+      font-family: PTSerif;
+      font-size: 18px;
+      line-height: 1.2;
+      font-weight: 400;
+      color: #c3c3c3;
+    }
+    .form-btn{
+      width: 232px;
+      height: 46px;
+      background-color: #dddddd;
+      border: 1.0px solid #d6d6d6;
+    }
